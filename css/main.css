@@ -24,6 +24,7 @@ body {
 .robot-body {
   width: 320px;
   position: relative;
+  left: 50%;
 }
 
 .robot-brain {
@@ -33,5 +34,14 @@ body {
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+  transition:
   position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0;
+  display: inline-block;
+}
+
+.robot-head-left, .robot-head-right:hover {
+
 }
