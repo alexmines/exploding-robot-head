@@ -23,12 +23,14 @@ body {
 
 .robot {
   width: 320px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 240px;
 }
 
 .robot-body {
   width: 320px;
-  position: relative;
-  left:
 }
 
 .robot-brain {
