@@ -15,6 +15,10 @@ body {
 
 .banner {
   background-color: #2b3851;
+  display:block;
+  width: 100%;
+  position: relative;
+  min-height: 240px;
 }
 
 .robot {
@@ -24,11 +28,14 @@ body {
 .robot-body {
   width: 320px;
   position: relative;
-  left: 50%;
+  left:
 }
 
 .robot-brain {
   width: 46px;
+  top: 0;
+  position: absolute;
+  left: 50%;
 }
 
 .robot-head-right,
@@ -37,9 +44,6 @@ body {
   transition:
   position: absolute;
   top: 0;
-  left: 50%;
-  margin: 0;
-  display: inline-block;
 }
 
 .robot-head-left, .robot-head-right:hover {
