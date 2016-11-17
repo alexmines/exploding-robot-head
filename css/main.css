@@ -30,24 +30,49 @@ body {
 }
 
 .robot-body {
-  width: 320px;
+  width: 46px;
+  position: absolute;
+  bottom: 0;
+  z-index: 20;
 }
 
 .robot-brain {
   width: 46px;
-  top: 0;
-  position: absolute;
-  left: 50%;
+ position: absolute;
+ z-index: 20;
+ top: 22%;
+ left: 42%;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
-  transition:
   position: absolute;
-  top: 0;
+  z-index: 30;
+  top: 15px;
 }
 
 .robot-head-left, .robot-head-right:hover {
 
+}
+
+.robot-head-right {
+  right: 11%;
+}
+
+.robot-head-left {
+  left: 11%;
+}
+
+.robot:hover > .robot-head-right {
+  left: 300px;
+  top: -7px;
+}
+.robot:hover > .robot-head-left {
+  left: 300px;
+  top: -7px;
+}
+.robot:hover > .robot-brain {
+  left: 300px;
+  top: -7px;
 }
